@@ -1,0 +1,53 @@
+
+body,html{
+    height: 100%;
+}
+
+#landing-page,#contact-page,#explain-page{
+    height: 100vh;
+    min-height: 100%;
+}
+
+#landing-page{
+    background-color: rgba(190, 190, 190, 0.349);
+    background-image: url(hero.jpg);
+    background-blend-mode: lighten;
+}
+
+#explain-page{
+    background-color: rgba(190, 190, 190, 0.349);
+    margin: 0;
+}
+.main-message{
+    width: 400px;
+    padding-top: 15%;
+}
+
+.mesg-box{
+    background-color: rgba(240, 248, 255, 0.726);
+}
+
+.pics img{
+    padding-left: 30px;
+    height: 600px;
+    width: fit-content;
+}
+@media (max-width: 767.98px) { 
+    #landing-page{
+        
+        background-image: url(hero.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .main-message{
+        padding-top: 15%;
+        width: auto;
+    }
+
+    .pics img{
+        padding-left: 30px;
+        height: 200px;
+}
+}
