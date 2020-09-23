@@ -1,0 +1,79 @@
+.title-font{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.handWritten{
+    background-color: #8c59ab54;
+}
+.description h1{
+    padding: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+}
+
+.description{
+    margin: 20px;
+}
+
+
+
+.finalizing {
+    background-color: #ef6962d7; 
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  
+    .mesg-box{
+        margin: 0;
+    }
+    .info-img{
+        max-width: 40%;
+        width: 100%;
+        height: auto;
+    }
+    .spacing{
+        padding: 50px;
+    }
+    .handWritten img{
+        max-width: 50%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) { 
+    .info-img{
+        width: 100%;
+        height: auto;
+    }
+    .spacing{
+        padding: 30px;
+    }
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .title-font{
+        text-align: left;
+        padding: .5%;
+    }
+    .handWritten, .mockup, .finalizing{
+        display: flex;
+        text-align: left;
+        padding: 40px;
+        width: 98%;
+    }
+
+    .des-text{
+        margin: 40px;
+    }
+
+    .container-custom{
+        margin-left: 5%;
+    }
+} 

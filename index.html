@@ -7,29 +7,48 @@
     <meta name="author" content="">
     <title>Efsoftware.dev</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
     
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="method-styles.css">
+    
     <!-- Custom styles for this template -->
    
   </head>
 
   <body class="text-center">
-<!------------------Navbar--------------------->
-    <div class=" d-flex w-100 h-100  mx-auto flex-column">
-      <header class="masthead mb-auto row sticky-top bg-light">   
-          <h3 class="masthead-brand col-sm-6">Emanuel Francis Software Dev</h3>
-          <nav class="nav nav-masthead justify-content-center col-sm-6">
-            <a class="nav-link active" href="#landing-page">Home</a>
-            <a class="nav-link" href="#explain-page">Features</a>
-            <a class="nav-link" href="#contacts-page">Contact</a>
+
+          <nav class=" navbar navbar-expand-lg navbar-light bg-light justify-content-center fixed-top mobile ">
+           
+            <a href="#landing" class="navbar-brand font ">Emanuel Francis Software Dev</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">             
+              <li class="nav-item active">
+                <a id="sec-1" class="nav-link " href="#landing-page">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a id="sec-2" class="nav-link" href="#explain-page">Features</a>
+              </li>
+              <li class="nav-item ">
+                <a id="sec-3" class="nav-link" href="#contacts-page">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+          
           </nav>
-     
-      </header>
-      <section id="landing-page" class="container-fluid">
-            <div  class="main-message mx-auto ">
+        
+      <section id="landing-page" class="container-fluid d-flex w-100 h-100  mx-auto flex-column" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <div  class="main-message">
                 <section class="mesg-box p-5">
                     <h1 class="cover-heading">Looking to create your next website?</h1>
                         <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
@@ -39,47 +58,73 @@
                 </section>
                 
             </div>
-        </section>
-    
-    <section id="explain-page">
-        <div class=" text-left explain-mesg p-5 ">
-            <h1>The Process</h1>
-            <div class="row p-5 mx-auto pics">
-                <section class="col-sm-4 order-1"  >
-                    <img style="height:400px" src="full-img.jpg" alt="" class="pics">
-                    <blockquote class="text-center">
-                        <h3>Quick Layout Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                    </blockquote>
-                    
-                </section>
-                <section class="col-sm-4 order-3" >
-                    <img style="height:400px"src="coding.jpg" alt="">
-                    <blockquote class="text-center">
-                        <h3>Programming and uploading to web</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                    </blockquote>
-                </section>
-                <section class="col-sm-4 order-2"  >
-                    <img style="height:400px"src="mockup-zoom.jpg" alt="">
-                    <blockquote class="text-center">
-                        <h3>Full Mockup with images</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                    </blockquote>
-                </section>
-            </div>
+      </section>
+     
+      <section class="p-3" id="explain-page"></section>
+      <section class="container-custom">
+          <br>
+        <div class="title-font">
+            <h1>Design Method</h1>
+        </div>
+        <div class="handWritten">
+            <img class="info-img" src="william-iven-gcsNOsPEXfs-unsplash.jpg" alt="Design on paper">
+            
+            <blockquote class="description ">                   
+                <div class="des-text">
+                    <h2>Rough Outline</h2>
+                    <p class="mb-0 ">
+                        Lorem ipsum dolor sit amet, ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi 
+                    </p>
+                    <br>
+                </div>
+                
+            </blockquote>
+        </div>
+        <div class="spacing"></div>
+
+        
+        <div class="mockup">
+            <blockquote class="description">
+                <h2>Mockup</h2>
+                <div>
+                    <p class="mb-0 media-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                    </p>
+                </div>
+                
+            </blockquote>
+            <img class="info-img" src="eftakher-alam-i1VQZsU86ok-unsplash.jpg" alt="Design on paper">
+        </div>
+        <div class="spacing"></div>
+        <div class="finalizing">
+            <img class="info-img" src="campaign-creators-s2ZliJLKS7c-unsplash.jpg" alt="Design on paper">
+            
+            <blockquote class="description">
+                <h2>Coding, Review, Hosting</h2>
+                <div>
+                    <p class="mb-0 media-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                    </p>
+                    <br>
+                </div>
+               
+            </blockquote>
         </div>
         
-    </section>
+      </section>
+    
+
+   <section class="p-5"></section>
 <!------------Contacts Section---------------->
-    <section id="contacts-page">
+    <div id="contacts-page" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
       <footer class="mt-auto" >
         <div class="row">
-            <div class="mesg col-sm-6 order-12" id="contacts-page ">
+            <div class="mesg col-sm-6 order-12  input-group" id="contacts-page ">
         
                 <form style="background-color:rgba(0, 0, 0, 0.664);color:white" class="text-center  p-5 mb-2" action="https://formspree.io/mwkrddrb" method="POST">
                     <h1>Contact</h1>
-                <p class="h4 mb-4" style="font:bold">
+                <p class=" mb-4" style="font:bold">
                     If you would like to know more please reach out to me
                 </p>
                     
@@ -128,8 +173,8 @@
           <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
         
       </footer>
-    </section>
-
+    </div>
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -138,7 +183,7 @@
         $(document).ready(function(){
           // Add smooth scrolling to all links
           $("a").on('click', function(event) {
-        
+            
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
               // Prevent default anchor click behavior
@@ -155,10 +200,38 @@
            
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
+                
               });
             } // End if
           });
         });
+
+
+        $('#explain-page').waypoint(function() {
+      
+      $(".rolling ul li").children().removeClass("active");
+      $("#sec-2").addClass("active");
+      
+    }, { offset: 101 });
+    
+    
+    $('#three').waypoint(function() {
+      $(".container ul li").children().removeClass("active");
+      $("#sec-3").addClass("active");
+    }, { offset: 101 });
+    
+    $('#four').waypoint(function() {
+      $(".container ul li").children().removeClass("active");
+      $("#sec-4").addClass("active");
+    }, { offset: 101 });
+    
+    $('#one').waypoint(function() {
+      $(".container ul li").children().removeClass("active");
+      $("#sec-1").addClass("active");
+    }, { offset: 0 });
+        
+      
+
         </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

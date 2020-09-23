@@ -1,37 +1,79 @@
 
 body,html{
     height: 100%;
+    
 }
 
-#landing-page,#contact-page,#explain-page{
+#landing-page,#contact-page{
     height: 100vh;
     min-height: 100%;
+    
+}
+
+.font{
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
 }
 
 #landing-page{
     background-color: rgba(190, 190, 190, 0.349);
     background-image: url(hero.jpg);
     background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+
 }
 
 #explain-page{
-    background-color: rgba(190, 190, 190, 0.349);
+    background-color:ffff;
     margin: 0;
 }
 .main-message{
-    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
     padding-top: 15%;
+    
 }
 
 .mesg-box{
+    
+    position: relative;
     background-color: rgba(240, 248, 255, 0.726);
 }
 
-.pics img{
-    padding-left: 30px;
-    height: 600px;
-    width: fit-content;
+.pics{
+    height: 250px;
 }
+
+.explain-mesg{
+    height: 100vh;
+}
+
+
+.container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  
+    .mesg-box{
+        margin: 0;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) { 
     #landing-page{
         
@@ -45,9 +87,21 @@ body,html{
         padding-top: 15%;
         width: auto;
     }
+    .pics{
+        display: flex;
+        justify-content: center;     
+        overflow: hidden;
+        height: auto;
+        width:400px;
+    }
 
-    .pics img{
-        padding-left: 30px;
-        height: 200px;
+    .mobile-width p{
+        width: max-content;
+    }
+
+
+
 }
-}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {} 
