@@ -2,26 +2,25 @@
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
-
 .handWritten{
-    background-color: #8c59ab54;
+    
+
 }
+
 .description h1{
     padding: 30px;
     font-family: 'Bebas Neue', cursive;
     font-size: larger;
+
 }
 
 .description{
     margin: 20px;
+    padding: 30px;
 }
 
-
-
 .finalizing {
-    background-color: #ef6962d7; 
+   
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  
@@ -36,9 +35,15 @@
     .spacing{
         padding: 50px;
     }
+
     .handWritten img{
         max-width: 50%;
     }
+
+    .mobile-nav{
+        position: fixed;
+    }
+
 }
 
 
@@ -48,11 +53,18 @@
         width: 100%;
         height: auto;
     }
+    
     .spacing{
         padding: 30px;
     }
 
+    .mobile-nav{
+        position: fixed;
+    }
 
+    .mesg-box{
+        padding: 40px;
+    }
 
 }
 
@@ -66,7 +78,13 @@
         display: flex;
         text-align: left;
         padding: 40px;
-        width: 98%;
+        width: 90%;
+        font-size: 1vw;
+        
+    }
+
+    .handWritten, .mockup, .finalizing img {
+        min-width: 38vw;
     }
 
     .des-text{
