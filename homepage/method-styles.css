@@ -1,0 +1,105 @@
+.title-font{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+}
+
+.handWritten{
+    
+
+}
+
+.description h1{
+    padding: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+
+}
+
+.description{
+    margin: 20px;
+    padding: 30px;
+}
+
+.finalizing {
+   
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  
+    .mesg-box{
+        margin: 0;
+    }
+    .info-img{
+        max-width: 50%;
+        width: 100%;
+        height: auto;
+    }
+    .spacing{
+        padding: 50px;
+    }
+
+    .handWritten img{
+        max-width: 50%;
+    }
+
+    .mobile-nav{
+        position: fixed;
+    }
+
+    body{
+        margin: 0;
+    }
+    
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) { 
+    .description{
+        margin: 0;
+        padding: 30px;
+    }
+    .info-img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .spacing{
+        padding: 30px;
+    }
+
+    .mobile-nav{
+        position: fixed;
+    }
+
+    .mesg-box{
+        padding: 40px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .title-font{
+        text-align: left;
+        padding: .5%;
+    }
+    .handWritten, .mockup, .finalizing{
+        display: flex;
+        text-align: left;
+        padding: 40px;
+        width: 90%;
+        font-size: 1vw;
+        
+    }
+
+    .handWritten, .mockup, .finalizing img {
+        min-width: 38vw;
+    }
+
+    .des-text{
+        margin: 40px;
+    }
+
+    .container-custom{
+        margin-left: 5%;
+    }
+} 
