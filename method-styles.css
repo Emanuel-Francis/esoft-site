@@ -28,7 +28,7 @@
         margin: 0;
     }
     .info-img{
-        max-width: 40%;
+        max-width: 50%;
         width: 100%;
         height: auto;
     }
@@ -44,11 +44,19 @@
         position: fixed;
     }
 
+    body{
+        margin: 0;
+    }
+    
 }
 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) { 
+    .description{
+        margin: 0;
+        padding: 30px;
+    }
     .info-img{
         width: 100%;
         height: auto;

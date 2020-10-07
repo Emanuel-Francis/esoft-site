@@ -4,7 +4,9 @@
     padding: .5em;
    
   }
-  
+  nav{
+    top:0;
+  }
   .masthead-brand {
     margin-bottom: 0;
   }
