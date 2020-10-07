@@ -71,7 +71,7 @@ body,html{
   }
   
   #About-page{
-    background-color: #52423760;
+    background-color: #52423756;
     height:75vh;
 }
 
@@ -81,7 +81,14 @@ body,html{
         margin: 0;
     }
 
-    
+    #About-page{
+        height:auto;
+        padding-bottom: 40px;
+    }
+
+    .contacts{
+        display: flex;
+     }
 }
 
 
@@ -115,6 +122,8 @@ body,html{
     }
     .contacts{
        display: flex;
+       padding-bottom: 40px;
+
     }
 
     .textLen{
@@ -125,7 +134,9 @@ body,html{
         height:auto;
     }
     
-    
+    .aboutTitle{
+        padding-top: 30px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
